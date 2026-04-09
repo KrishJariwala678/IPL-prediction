@@ -1,4 +1,4 @@
-# 🏏 IPL 2022 Match Winner Predictor
+# IPL 2022 Match Winner Predictor
 
 A beginner-friendly Machine Learning project that predicts the winner of an IPL match based on pre-match conditions such as teams, venue, toss result, and tournament stage.
 
@@ -6,7 +6,7 @@ A beginner-friendly Machine Learning project that predicts the winner of an IPL 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Can we predict who wins an IPL match before it starts? This project attempts to answer that question using historical IPL 2022 match data and two classification algorithms — Random Forest and K-Nearest Neighbors (KNN).
 
@@ -14,7 +14,7 @@ The model only uses **pre-match information** (information available before the 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **File:** `Book_ipl22_ver_33.csv`
 - **Season:** IPL 2022
@@ -33,7 +33,7 @@ The model only uses **pre-match information** (information available before the 
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Four key insights were derived from the data:
 
@@ -46,7 +46,7 @@ All visualizations were built using **Plotly Express** for interactive explorati
 
 ---
 
-## ⚙️ ML Pipeline
+## ML Pipeline
 
 ```
 Raw Data
@@ -68,14 +68,14 @@ Prediction on New Match Data
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
 ### 1. Random Forest Classifier
 - `n_estimators = 100`
 - `random_state = 42`
 - **Accuracy: 33%**
 
-### 2. K-Nearest Neighbors (KNN) ✅ Best Model
+### 2. K-Nearest Neighbors (KNN)  Best Model
 - `n_neighbors = 3`
 - Hyperparameter tuning performed on K values (1, 3, 5, 7)
 - **Accuracy: 40%**
@@ -86,13 +86,13 @@ Prediction on New Match Data
 |-------|----------|
 | Random Guessing (baseline) | ~10% |
 | Random Forest | 33% |
-| KNN (n=3) | **40%** ✅ |
+| KNN (n=3) | **40%**  |
 
 > The KNN model performs **4x better than random guessing** across 10 possible team outcomes.
 
 ---
 
-## 📉 Why Not Higher Accuracy?
+## Why Not Higher Accuracy?
 
 The dataset contains only **74 matches** from IPL 2022. With 10 teams to predict between, a small dataset limits the model's ability to learn strong patterns. Potential improvements include:
 
@@ -102,7 +102,7 @@ The dataset contains only **74 matches** from IPL 2022. With 10 teams to predict
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 IPL-Match-Predictor/
@@ -114,7 +114,7 @@ IPL-Match-Predictor/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository
 ```bash
@@ -135,7 +135,7 @@ jupyter notebook IPLprediction.ipynb
 
 ---
 
-## 🔢 Feature Encoding Reference
+## Feature Encoding Reference
 
 | Team | Encoded Value |
 |------|--------------|
@@ -163,7 +163,7 @@ jupyter notebook IPLprediction.ipynb
 
 ---
 
-## 📚 Libraries Used
+## Libraries Used
 
 - `pandas` — Data manipulation
 - `numpy` — Numerical operations
@@ -172,7 +172,7 @@ jupyter notebook IPLprediction.ipynb
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Understood the difference between **pre-match and post-match features** (data leakage)
 - Applied **Label Encoding** consistently across related columns
@@ -182,11 +182,11 @@ jupyter notebook IPLprediction.ipynb
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Krish Jariwala**  
 GitHub: [@KrishJariwala678](https://github.com/KrishJariwala678)
 
 ---
 
-*Built with ❤️ during IPL 2025 season*
+*Built with ❤️ during IPL 2026 season*
